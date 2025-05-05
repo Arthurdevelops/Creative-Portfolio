@@ -4,21 +4,23 @@ import { motion } from "motion/react";
 
 type AnimationType = "rotate" | "bounce" | "fade" | "slide";
 
-export default function Rectangle({
+export default function Circle({
   color,
-  width,
-  height,
+  size,
   className,
   animationType = "rotate",
   duration,
 }: {
   color: string;
-  width: string;
-  height: string;
+  size: string;
   className?: string;
   animationType?: AnimationType;
   duration?: number;
 }) {
+  const getRandomDuration = () => {
+    return Math.random() * 5; // Génère un nombre entre 0 et 5
+  };
+
   const getAnimation = () => {
     switch (animationType) {
       case "rotate":
@@ -34,19 +36,15 @@ export default function Rectangle({
     }
   };
 
-  const getRandomDuration = () => {
-    return Math.random() * 5; // Génère un nombre entre 0 et 5
-  };
-
   return (
     <motion.div
       animate={getAnimation()}
       transition={{
-        duration: duration ? duration : getRandomDuration(),
+        duration: duration ?? getRandomDuration(),
         repeat: Infinity,
         ease: "easeInOut",
       }}
-      className={`${color} ${width} ${height} rounded-2xl ${className}`}
+      className={`${color} ${size} rounded-full ${className}`}
     ></motion.div>
   );
 }
