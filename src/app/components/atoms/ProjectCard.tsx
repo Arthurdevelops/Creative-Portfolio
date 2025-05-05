@@ -15,7 +15,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   technologies,
 }) => {
   return (
-    <div className="bg-white rounded-lg shadow-lg overflow-hidden w-80 hover:scale-105 transition-transform duration-300">
+    <div className="bg-white rounded-lg shadow-lg overflow-hidden w-100 hover:scale-105 transition-transform duration-300">
       <div className="h-48 bg-gray-200">
         <Image
           src={imageUrl}
@@ -26,13 +26,13 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
         />
       </div>
       <div className="p-4">
-        <h3 className="text-xl font-bold mb-2">{title}</h3>
+        <h3 className="text-xl font-bold mb-2 text-black">{title}</h3>
         <p className="text-gray-600 mb-4">{description}</p>
         <div className="flex flex-wrap gap-2">
           {technologies.map((tech, index) => (
             <span
               key={index}
-              className="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-sm"
+              className="bg-blue-950 text-white px-2 py-1 rounded-full text-sm"
             >
               {tech}
             </span>
