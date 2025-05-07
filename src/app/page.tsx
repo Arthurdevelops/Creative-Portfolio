@@ -1,5 +1,5 @@
 import Rectangle from "./components/atoms/Rectangle";
-import ProjectCard from "./components/atoms/ProjectCard";
+import ProjectCard from "./components/organisms/ProjectCard";
 import Circle from "./components/atoms/Circle";
 
 const projects = [

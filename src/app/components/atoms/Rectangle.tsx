@@ -9,7 +9,7 @@ export default function Rectangle({
   width,
   height,
   className,
-  animationType = "rotate",
+  animationType,
   duration,
 }: {
   color: string;
@@ -30,12 +30,12 @@ export default function Rectangle({
       case "slide":
         return { x: [0, 100, 0] };
       default:
-        return { rotate: 360 };
+        return;
     }
   };
 
   const getRandomDuration = () => {
-    return Math.random() * 5; // Génère un nombre entre 0 et 5
+    return Math.random() * 5;
   };
 
   return (
