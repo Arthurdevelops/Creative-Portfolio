@@ -1,31 +1,40 @@
 @import "tailwindcss";
 
-:root {
-  --background: #171717;
-  --foreground: #ffffff;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-  --color-main-color: ;
-}
+  /* color */
+  --color-black-900: #171717;
+  --color-white-900: #f9f9f9;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+  --color-green-500: oklch(0.72 0.11 178);
+  --color-purple-500: oklch(0.75 0.12 280);
+  --color-peach-500: oklch(0.78 0.15 30);
+  --color-sage-500: oklch(0.7 0.08 120);
+  --color-sky-500: oklch(0.75 0.12 220);
+  --color-rose-500: oklch(0.75 0.15 350);
+  --color-cream-500: oklch(0.95 0.03 80);
+  --color-lilac-500: oklch(0.75 0.1 300);
+  --color-coral-500: oklch(0.75 0.18 20);
+  --color-teal-500: oklch(0.7 0.1 190);
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  /* text sizes */
+  --text-12xl: 12rem; /* 192px */
+  --text-11xl: 10rem; /* 160px */
+  --text-10xl: 8rem; /* 128px */
+  --text-9xl: 6rem; /* 96px */
+  --text-8xl: 5rem; /* 80px */
+  --text-7xl: 4rem; /* 64px */
+  --text-6xl: 3.75rem; /* 60px */
+  --text-5xl: 3rem; /* 48px */
+  --text-4xl: 2.25rem; /* 36px */
+  --text-3xl: 1.875rem; /* 30px */
+  --text-2xl: 1.5rem; /* 24px */
+  --text-xl: 1.25rem; /* 20px */
+  --text-lg: 1.125rem; /* 18px */
+  --text-base: 1rem; /* 16px */
+  --text-sm: 0.875rem; /* 14px */
+  --text-xs: 0.75rem; /* 12px */
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: var(--text-12xl);
 }
