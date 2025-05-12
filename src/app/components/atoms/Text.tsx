@@ -31,7 +31,6 @@ export default function Text({
   return (
     <>
       <div className={`${getVariantClasses()} ${className}`}>{children}</div>
-      <h2 className="text-3xl font-bold">h2</h2>
     </>
   );
 }

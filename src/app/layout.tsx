@@ -7,7 +7,11 @@ export const metadata: Metadata = {
   description: "Creative portfolio by Arthur FRANÇOIS",
 };
 
-const mainFont = Work_Sans({ weight: "200" });
+const workSans = Work_Sans({
+  subsets: ["latin"],
+  weight: ["200", "400", "600", "800"],
+  variable: "--font-work-sans",
+});
 
 export default function RootLayout({
   children,
@@ -15,8 +19,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={mainFont.className}>{children}</body>
+    <html lang="en" className={workSans.variable}>
+      <body className="font-sans">{children}</body>
     </html>
   );
 }

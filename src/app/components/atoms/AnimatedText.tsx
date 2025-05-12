@@ -29,7 +29,7 @@ export default function AnimatedText({
       case "h3":
         return "text-6xl font-semibold";
       case "body":
-        return "text-2xl";
+        return "text-2xl font-normal";
       case "small":
         return "sm";
       default:

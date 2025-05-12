@@ -31,7 +31,7 @@ export default function ProjectsSection() {
       id="projects"
       className="flex flex-col items-center justify-center min-h-screen bg-black-900 text-white snap-start"
     >
-      <h2 className="text-3xl font-bold my-8">Mes Projets</h2>
+      <h2 className="text-3xl font-medium my-8">Mes Projets</h2>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-30 p-6 max-w-7xl">
         {projects.map((project, index) => (
           <div key={index} className={index % 2 === 1 ? "lg:pt-20" : ""}>
