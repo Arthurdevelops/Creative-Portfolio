@@ -27,7 +27,7 @@ export default function ThreeImagesBlade({ images }: ThreeImagesBladeProps) {
                 className="object-cover rounded-lg"
               />
             </div>
-            <Text variant="body" className="text-gray-300">
+            <Text variant="body" className="dark:text-gray-300">
               {image.description}
             </Text>
           </div>

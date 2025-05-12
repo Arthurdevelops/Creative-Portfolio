@@ -12,7 +12,7 @@ export default function HeroSection() {
   }
 
   return (
-    <section className="flex flex-col items-center justify-center h-screen bg-black-900 text-white snap-start">
+    <section className="flex flex-col items-center justify-center h-screen snap-start">
       <div className="flex flex-col items-center gap-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -30,7 +30,7 @@ export default function HeroSection() {
           transition={{ delay: 1.2, duration: 0.8 }}
         >
           <ScrollArrow
-            className="mt-8 text-white/80 hover:text-white transition-colors"
+            className="mt-8"
             onClick={scrollToProjects}
             iconClassName="w-20 h-20"
           />

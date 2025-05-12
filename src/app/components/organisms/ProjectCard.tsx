@@ -28,7 +28,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 
   return (
     <div
-      className="bg-white rounded-lg shadow-lg overflow-hidden w-80 hover:scale-105 transition-transform duration-300 cursor-pointer"
+      className="bg-gray-900 dark:bg-white rounded-lg shadow-lg overflow-hidden w-80 hover:scale-105 transition-transform duration-300 cursor-pointer"
       onClick={handleClick}
     >
       <div className="h-48 bg-gray-200">
@@ -41,10 +41,10 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
         />
       </div>
       <div className="p-4">
-        <Text variant="h3" className="mb-2 text-black">
+        <Text variant="h3" className="mb-2 text-white dark:text-black">
           {title}
         </Text>
-        <Text variant="body" className="text-gray-600 mb-4">
+        <Text variant="body" className="text-gray-200 dark:text-black mb-4">
           {description}
         </Text>
         <TagList tags={technologies} />

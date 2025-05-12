@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Work_Sans } from "next/font/google";
 import "./globals.css";
+import ThemeToggle from "./components/ThemeToggle";
 
 export const metadata: Metadata = {
   title: "Arthur's world",
@@ -20,7 +21,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={workSans.variable}>
-      <body className="font-sans">{children}</body>
+      <body className="font-sans bg-white dark:bg-black-900 text-gray-900 dark:text-white transition-colors duration-200">
+        {children}
+        <ThemeToggle />
+      </body>
     </html>
   );
 }

@@ -55,7 +55,7 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
   }
 
   return (
-    <main className="min-h-screen bg-black-900 text-white p-8">
+    <main className="min-h-screen p-8">
       <div className="max-w-4xl mx-auto">
         <Link
           href="/#projects"
@@ -78,7 +78,7 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
         </Link>
 
         <div className="mb-8">
-          <Text variant="h1" className="text-white mb-4">
+          <Text variant="h1" className="mb-4">
             {project.title}
           </Text>
           <div className="relative w-full h-[400px] mb-8">
