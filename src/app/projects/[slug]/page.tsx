@@ -4,6 +4,7 @@ import Link from "next/link";
 import Text from "@/app/components/atoms/Text";
 import TagList from "@/app/components/molecules/TagList";
 import TitleSubtitleDescriptionBlade from "@/app/components/blades/TitleSubtitleDescriptionBlade";
+import TitleSubtitleDescriptionOnSideBlade from "@/app/components/blades/TitleSubtitleDescriptionOnSideBlade";
 import ThreeImagesBlade from "@/app/components/blades/ThreeImagesBlade";
 import { Project, Blade, ProjectsData } from "@/app/types/blades";
 import projectsData from "@/app/data/projects.json";
@@ -19,6 +20,15 @@ const renderBlade = (blade: Blade) => {
     case "TitleSubtitleDescriptionBlade":
       return (
         <TitleSubtitleDescriptionBlade
+          key={`${blade.type}-${blade.title}`}
+          title={blade.title}
+          subtitle={blade.subtitle}
+          description={blade.description}
+        />
+      );
+    case "TitleSubtitleDescriptionOnSideBlade":
+      return (
+        <TitleSubtitleDescriptionOnSideBlade
           key={`${blade.type}-${blade.title}`}
           title={blade.title}
           subtitle={blade.subtitle}

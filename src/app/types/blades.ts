@@ -11,12 +11,22 @@ export interface TitleSubtitleDescriptionBlade {
   description: string;
 }
 
+export interface TitleSubtitleDescriptionOnSideBlade {
+  type: "TitleSubtitleDescriptionOnSideBlade";
+  title: string;
+  subtitle: string;
+  description: string;
+}
+
 export interface ThreeImagesBlade {
   type: "ThreeImagesBlade";
   images: Image[];
 }
 
-export type Blade = TitleSubtitleDescriptionBlade | ThreeImagesBlade;
+export type Blade =
+  | TitleSubtitleDescriptionBlade
+  | TitleSubtitleDescriptionOnSideBlade
+  | ThreeImagesBlade;
 
 export interface Project {
   slug: string;

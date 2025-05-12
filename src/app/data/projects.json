@@ -4,14 +4,14 @@
       "slug": "outil-transformation-cv",
       "title": "Outil de Transformation de CV",
       "description": "Une application web conçue pour automatiser le traitement de CV, réduisant le temps de traitement de 90%.",
-      "imageUrl": "/transformation-cv.jpg",
+      "imageUrl": "/images/projects/transformation-cv.png",
       "technologies": ["Svelte", ".NET", "Semantic Kernel", "SCRUM"],
       "body": [
         {
-          "type": "TitleSubtitleDescriptionBlade",
+          "type": "TitleSubtitleDescriptionOnSideBlade",
           "title": "Contexte du Projet",
-          "subtitle": "Un besoin d’automatisation dans les équipes commerciales",
-          "description": "Dans le cadre de mon poste chez Onepoint, nous avons identifié un goulot d’étranglement dans la gestion des CV pour les propositions commerciales. L'objectif était de créer un outil capable de transformer automatiquement les CV bruts en versions prêtes à l'envoi, ce qui permettrait de gagner un temps précieux pour les équipes commerciales."
+          "subtitle": "Un besoin d'automatisation dans les équipes commerciales",
+          "description": "Dans le cadre de mon poste chez Onepoint, nous avons identifié un goulot d'étranglement dans la gestion des CV pour les propositions commerciales. L'objectif était de créer un outil capable de transformer automatiquement les CV bruts en versions prêtes à l'envoi, ce qui permettrait de gagner un temps précieux pour les équipes commerciales."
         },
         {
           "type": "ThreeImagesBlade",
@@ -37,77 +37,212 @@
           "type": "TitleSubtitleDescriptionBlade",
           "title": "Défis Techniques",
           "subtitle": "Interopérabilité et automatisation intelligente",
-          "description": "L’un des défis majeurs a été d’assurer l’interopérabilité entre l’interface front en Svelte et le back-end .NET. L'intégration du framework Semantic Kernel nous a permis de créer une logique d’automatisation intelligente adaptée aux différents modèles de CV. Le projet a été réalisé en méthodologie agile SCRUM, avec une équipe réduite de 3 personnes."
+          "description": "L'un des défis majeurs a été d'assurer l'interopérabilité entre l'interface front en Svelte et le back-end .NET. L'intégration du framework Semantic Kernel nous a permis de créer une logique d'automatisation intelligente adaptée aux différents modèles de CV. Le projet a été réalisé en méthodologie agile SCRUM, avec une équipe réduite de 3 personnes."
         }
       ]
     },
     {
-      "slug": "projet-2",
-      "title": "Projet 2",
-      "description": "Description du deuxième projet",
-      "imageUrl": "/project2.jpg",
-      "technologies": ["Node.js", "Express", "MongoDB"],
+      "slug": "chatbot-intelligent-devs",
+      "title": "Chatbot Intelligent pour Développeurs",
+      "description": "Un assistant virtuel connecté à Jira, Outlook et Gitlab, conçu pour améliorer la productivité des développeurs.",
+      "imageUrl": "/images/projects/chatbot-dev.png",
+      "technologies": ["React", ".NET", "Semantic Kernel", "SCRUM"],
       "body": [
         {
-          "type": "TitleSubtitleDescriptionBlade",
-          "title": "Objectifs du Projet",
-          "subtitle": "Ce que nous voulions accomplir",
-          "description": "Description des objectifs initiaux du projet."
+          "type": "TitleSubtitleDescriptionOnSideBlade",
+          "title": "Contexte du Projet",
+          "subtitle": "Un assistant intelligent intégré aux outils de développement",
+          "description": "Lors de mon alternance chez Onepoint, j'ai participé à la création d'un chatbot pour assister les développeurs dans leurs tâches quotidiennes. Ce bot interagit avec Jira pour les tickets, Outlook pour les rendez-vous, et Gitlab pour les merges/pushs."
         },
         {
           "type": "ThreeImagesBlade",
           "images": [
             {
-              "url": "/project2-image1.jpg",
-              "alt": "Première image du projet 2",
-              "description": "Description de la première image"
+              "url": "/chatbot-jira.jpg",
+              "alt": "Intégration Jira",
+              "description": "Exemple d'un ticket Jira créé automatiquement via le chatbot."
             },
             {
-              "url": "/project2-image2.jpg",
-              "alt": "Deuxième image du projet 2",
-              "description": "Description de la deuxième image"
+              "url": "/chatbot-outlook.jpg",
+              "alt": "Planification Outlook",
+              "description": "Planification automatique de réunions depuis l'interface de messagerie."
             },
             {
-              "url": "/project2-image3.jpg",
-              "alt": "Troisième image du projet 2",
-              "description": "Description de la troisième image"
+              "url": "/chatbot-gitlab.jpg",
+              "alt": "Interaction Gitlab",
+              "description": "Rappel quotidien des MR en attente dans Gitlab envoyé par le bot."
             }
           ]
+        },
+        {
+          "type": "TitleSubtitleDescriptionBlade",
+          "title": "Défis Techniques",
+          "subtitle": "Unification de plusieurs APIs",
+          "description": "Le principal défi a été de gérer des APIs hétérogènes (Jira, Outlook, Gitlab) tout en assurant des réponses pertinentes. Grâce au framework Semantic Kernel, nous avons structuré une logique d'interactions naturelles. Le chatbot a permis un réel gain de productivité pour les équipes tech."
         }
       ]
     },
     {
-      "slug": "projet-3",
-      "title": "Projet 3",
-      "description": "Description du troisième projet",
-      "imageUrl": "/project3.jpg",
-      "technologies": ["Python", "Django", "PostgreSQL"],
+      "slug": "cms-localisation-bornes",
+      "title": "Site de Localisation de Bornes de Recharge",
+      "description": "Projet international pour permettre la localisation de bornes de recharge en Europe et à Singapour.",
+      "imageUrl": "/images/projects/total-ev.png",
+      "technologies": ["Angular", "Flutter", "CMS", "SCRUM"],
       "body": [
         {
-          "type": "TitleSubtitleDescriptionBlade",
-          "title": "Architecture du Projet",
-          "subtitle": "Structure technique",
-          "description": "Description de l'architecture technique du projet."
+          "type": "TitleSubtitleDescriptionOnSideBlade",
+          "title": "Contexte du Projet",
+          "subtitle": "Un projet d'envergure internationale",
+          "description": "Chez TotalEnergies, j'ai participé à un projet crucial visant à rendre disponible un outil de localisation des stations de recharge électrique pour les usagers européens et singapouriens. J'étais responsable de l'intégration CMS pour assurer une autonomie complète du client sur les contenus du site."
         },
         {
           "type": "ThreeImagesBlade",
           "images": [
             {
-              "url": "/project3-image1.jpg",
-              "alt": "Première image du projet 3",
-              "description": "Description de la première image"
+              "url": "/map-interface.jpg",
+              "alt": "Carte interactive",
+              "description": "Interface cartographique permettant de localiser les stations en temps réel."
             },
             {
-              "url": "/project3-image2.jpg",
-              "alt": "Deuxième image du projet 3",
-              "description": "Description de la deuxième image"
+              "url": "/cms-dashboard.jpg",
+              "alt": "Dashboard CMS",
+              "description": "CMS configuré sur mesure permettant au client de modifier le contenu sans développeur."
             },
             {
-              "url": "/project3-image3.jpg",
-              "alt": "Troisième image du projet 3",
-              "description": "Description de la troisième image"
+              "url": "/flutter-app.jpg",
+              "alt": "Version mobile Flutter",
+              "description": "Application mobile Flutter pour accéder aux bornes depuis un smartphone."
             }
           ]
+        },
+        {
+          "type": "TitleSubtitleDescriptionBlade",
+          "title": "Défis Techniques",
+          "subtitle": "Performance et adaptation multilingue",
+          "description": "Le défi principal résidait dans la gestion de contenus multilingues et la synchronisation entre CMS, front Angular et app mobile Flutter. J'ai mis en place une stratégie de modularisation du contenu, facilitant son déploiement dans plusieurs pays."
+        }
+      ]
+    },
+    {
+      "slug": "onepoint-live-location-salles",
+      "title": "Onepoint Live : Plateforme de Location de Salles",
+      "description": "Un site Drupal permettant aux entreprises de réserver des espaces professionnels dans les locaux Onepoint à l'échelle nationale.",
+      "imageUrl": "/images/projects/onepoint-live.png",
+      "technologies": ["Drupal", "PHP", "SCRUM"],
+      "body": [
+        {
+          "type": "TitleSubtitleDescriptionOnSideBlade",
+          "title": "Contexte du Projet",
+          "subtitle": "Faciliter la réservation d'espaces pour des séminaires et événements",
+          "description": "Onepoint Live est une plateforme interne destinée à proposer les espaces disponibles de l'entreprise à des clients professionnels souhaitant organiser des séminaires, conférences ou réunions. Ce projet m'a été confié de A à Z, depuis la modélisation du contenu jusqu'au développement sous Drupal."
+        },
+        {
+          "type": "ThreeImagesBlade",
+          "images": [
+            {
+              "url": "/drupal-front.jpg",
+              "alt": "Page de réservation",
+              "description": "Interface publique de réservation des espaces dans les locaux Onepoint."
+            },
+            {
+              "url": "/admin-reservations.jpg",
+              "alt": "Back-office Drupal",
+              "description": "Gestion centralisée des demandes de réservation par les administrateurs Onepoint."
+            },
+            {
+              "url": "/formulaire-drupal.jpg",
+              "alt": "Formulaire personnalisé",
+              "description": "Formulaire de réservation personnalisé pour chaque type de salle ou localisation."
+            }
+          ]
+        },
+        {
+          "type": "TitleSubtitleDescriptionBlade",
+          "title": "Défis Techniques",
+          "subtitle": "Flexibilité et expérience utilisateur",
+          "description": "J'ai dû rendre l'interface à la fois intuitive pour les utilisateurs finaux et suffisamment flexible pour les équipes internes. L'un des défis majeurs était de modéliser des types de contenus dynamiques pour différentes villes et usages, tout en assurant une gestion simple via l'interface Drupal."
+        }
+      ]
+    },
+    {
+      "slug": "bonus-auto-symfony",
+      "title": "Bonus-Auto : Aides à l'Achat de Véhicules Électriques",
+      "description": "Une application Symfony pour accompagner les citoyens dans la demande de bonus écologique à l'achat d'un véhicule électrique.",
+      "imageUrl": "/images/projects/bonus-auto.png",
+      "technologies": ["Symfony", "PHP", "SCRUM"],
+      "body": [
+        {
+          "type": "TitleSubtitleDescriptionOnSideBlade",
+          "title": "Contexte du Projet",
+          "subtitle": "Simplifier l'accès aux aides gouvernementales",
+          "description": "Le site Bonus-Auto de l'ADEME permet aux particuliers et aux professionnels de connaître leur éligibilité et de soumettre une demande d'aide à l'achat d'un véhicule électrique. J'ai contribué à l'ajout de nouvelles fonctionnalités et à l'optimisation de l'ergonomie du site."
+        },
+        {
+          "type": "ThreeImagesBlade",
+          "images": [
+            {
+              "url": "/simulation-bonus.jpg",
+              "alt": "Simulateur d'éligibilité",
+              "description": "Module de simulation permettant aux utilisateurs d'évaluer les aides disponibles."
+            },
+            {
+              "url": "/interface-gestion.jpg",
+              "alt": "Gestion des dossiers",
+              "description": "Tableau de bord pour suivre les demandes déposées et leur statut."
+            },
+            {
+              "url": "/formulaire-bonus.jpg",
+              "alt": "Formulaire de demande",
+              "description": "Formulaire de dépôt de dossier avec pièces justificatives et validation automatisée."
+            }
+          ]
+        },
+        {
+          "type": "TitleSubtitleDescriptionBlade",
+          "title": "Défis Techniques",
+          "subtitle": "Sécurité et performance pour un service public",
+          "description": "Le principal défi technique était de garantir la robustesse et la sécurité du site face à un grand nombre d'utilisateurs, tout en respectant les exigences réglementaires. J'ai aussi participé à des revues de code et à l'amélioration de la qualité du code Symfony existant dans une équipe de 10 développeurs PHP."
+        }
+      ]
+    },
+    {
+      "slug": "analyse-comportementale-yolo",
+      "title": "Analyse Comportementale en Vision par Ordinateur",
+      "description": "Développement d'un algorithme d'analyse comportementale au Chili, combinant YOLO et Mediapipe.",
+      "imageUrl": "/images/projects/yolo-mediapipe.png",
+      "technologies": ["Python", "YOLO", "Mediapipe", "IA"],
+      "body": [
+        {
+          "type": "TitleSubtitleDescriptionOnSideBlade",
+          "title": "Contexte du Projet",
+          "subtitle": "Stage de recherche à l'Université de Valparaiso",
+          "description": "J'ai intégré l'équipe R&D de l'université pour développer un système d'analyse comportementale. Le but était d'identifier des postures, gestes ou interactions sociales via des flux vidéo en temps réel."
+        },
+        {
+          "type": "ThreeImagesBlade",
+          "images": [
+            {
+              "url": "/pose-detection.jpg",
+              "alt": "Détection de posture",
+              "description": "Analyse de la posture humaine grâce à Mediapipe."
+            },
+            {
+              "url": "/yolo-tracking.jpg",
+              "alt": "Tracking YOLO",
+              "description": "Détection et suivi d'objets/personnes avec YOLOv5."
+            },
+            {
+              "url": "/visualisation-donnees.jpg",
+              "alt": "Interface de visualisation",
+              "description": "Visualisation en temps réel des comportements identifiés."
+            }
+          ]
+        },
+        {
+          "type": "TitleSubtitleDescriptionBlade",
+          "title": "Défis Techniques",
+          "subtitle": "Traitement en temps réel et précision",
+          "description": "Le principal défi consistait à combiner vitesse d'exécution et précision de détection sur du matériel modeste. Ce projet m'a permis de développer mon autonomie technique et de m'adapter dans un contexte interculturel exigeant."
         }
       ]
     }
