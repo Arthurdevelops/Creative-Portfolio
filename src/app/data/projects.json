@@ -1,0 +1,115 @@
+{
+  "projects": [
+    {
+      "slug": "outil-transformation-cv",
+      "title": "Outil de Transformation de CV",
+      "description": "Une application web conçue pour automatiser le traitement de CV, réduisant le temps de traitement de 90%.",
+      "imageUrl": "/transformation-cv.jpg",
+      "technologies": ["Svelte", ".NET", "Semantic Kernel", "SCRUM"],
+      "body": [
+        {
+          "type": "TitleSubtitleDescriptionBlade",
+          "title": "Contexte du Projet",
+          "subtitle": "Un besoin d’automatisation dans les équipes commerciales",
+          "description": "Dans le cadre de mon poste chez Onepoint, nous avons identifié un goulot d’étranglement dans la gestion des CV pour les propositions commerciales. L'objectif était de créer un outil capable de transformer automatiquement les CV bruts en versions prêtes à l'envoi, ce qui permettrait de gagner un temps précieux pour les équipes commerciales."
+        },
+        {
+          "type": "ThreeImagesBlade",
+          "images": [
+            {
+              "url": "/transformation-cv-1.jpg",
+              "alt": "Interface de l'application Svelte",
+              "description": "Interface intuitive développée en Svelte permettant la transformation de CV via glisser-déposer."
+            },
+            {
+              "url": "/transformation-cv-2.jpg",
+              "alt": "Pipeline de traitement .NET",
+              "description": "Moteur de traitement côté back-end utilisant Semantic Kernel pour l'orchestration des tâches."
+            },
+            {
+              "url": "/transformation-cv-3.jpg",
+              "alt": "Statistiques d'utilisation",
+              "description": "Statistiques montrant une réduction de 90 % du temps de traitement des CV."
+            }
+          ]
+        },
+        {
+          "type": "TitleSubtitleDescriptionBlade",
+          "title": "Défis Techniques",
+          "subtitle": "Interopérabilité et automatisation intelligente",
+          "description": "L’un des défis majeurs a été d’assurer l’interopérabilité entre l’interface front en Svelte et le back-end .NET. L'intégration du framework Semantic Kernel nous a permis de créer une logique d’automatisation intelligente adaptée aux différents modèles de CV. Le projet a été réalisé en méthodologie agile SCRUM, avec une équipe réduite de 3 personnes."
+        }
+      ]
+    },
+    {
+      "slug": "projet-2",
+      "title": "Projet 2",
+      "description": "Description du deuxième projet",
+      "imageUrl": "/project2.jpg",
+      "technologies": ["Node.js", "Express", "MongoDB"],
+      "body": [
+        {
+          "type": "TitleSubtitleDescriptionBlade",
+          "title": "Objectifs du Projet",
+          "subtitle": "Ce que nous voulions accomplir",
+          "description": "Description des objectifs initiaux du projet."
+        },
+        {
+          "type": "ThreeImagesBlade",
+          "images": [
+            {
+              "url": "/project2-image1.jpg",
+              "alt": "Première image du projet 2",
+              "description": "Description de la première image"
+            },
+            {
+              "url": "/project2-image2.jpg",
+              "alt": "Deuxième image du projet 2",
+              "description": "Description de la deuxième image"
+            },
+            {
+              "url": "/project2-image3.jpg",
+              "alt": "Troisième image du projet 2",
+              "description": "Description de la troisième image"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "projet-3",
+      "title": "Projet 3",
+      "description": "Description du troisième projet",
+      "imageUrl": "/project3.jpg",
+      "technologies": ["Python", "Django", "PostgreSQL"],
+      "body": [
+        {
+          "type": "TitleSubtitleDescriptionBlade",
+          "title": "Architecture du Projet",
+          "subtitle": "Structure technique",
+          "description": "Description de l'architecture technique du projet."
+        },
+        {
+          "type": "ThreeImagesBlade",
+          "images": [
+            {
+              "url": "/project3-image1.jpg",
+              "alt": "Première image du projet 3",
+              "description": "Description de la première image"
+            },
+            {
+              "url": "/project3-image2.jpg",
+              "alt": "Deuxième image du projet 3",
+              "description": "Description de la deuxième image"
+            },
+            {
+              "url": "/project3-image3.jpg",
+              "alt": "Troisième image du projet 3",
+              "description": "Description de la troisième image"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

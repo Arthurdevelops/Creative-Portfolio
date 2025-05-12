@@ -3,29 +3,12 @@
 import ProjectCard from "../organisms/ProjectCard";
 import Rectangle from "../atoms/Rectangle";
 import Circle from "../atoms/Circle";
-
-const projects = [
-  {
-    title: "Projet 1",
-    description: "Description du premier projet",
-    imageUrl: "/project1.jpg",
-    technologies: ["React", "TypeScript", "TailwindCSS"],
-  },
-  {
-    title: "Projet 2",
-    description: "Description du deuxième projet",
-    imageUrl: "/project2.jpg",
-    technologies: ["Node.js", "Express", "MongoDB"],
-  },
-  {
-    title: "Projet 3",
-    description: "Description du troisième projet",
-    imageUrl: "/project3.jpg",
-    technologies: ["Python", "Django", "PostgreSQL"],
-  },
-];
+import projectsData from "@/app/data/projects.json";
+import { ProjectsData } from "@/app/types/blades";
 
 export default function ProjectsSection() {
+  const projects = (projectsData as ProjectsData).projects;
+
   return (
     <section
       id="projects"
@@ -40,6 +23,7 @@ export default function ProjectsSection() {
               description={project.description}
               imageUrl={project.imageUrl}
               technologies={project.technologies}
+              slug={project.slug}
             />
           </div>
         ))}
