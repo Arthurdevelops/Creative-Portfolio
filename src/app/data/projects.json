@@ -4,7 +4,7 @@
       "slug": "outil-transformation-cv",
       "title": "Outil de Transformation de CV",
       "description": "Une application web conçue pour automatiser le traitement de CV, réduisant le temps de traitement de 90%.",
-      "imageUrl": "/images/projects/transformation-cv.png",
+      "imageUrl": "/images/projects/transformation-cv/transformation-cv.png",
       "technologies": ["Svelte", ".NET", "Semantic Kernel", "SCRUM"],
       "body": [
         {
@@ -45,7 +45,7 @@
       "slug": "chatbot-intelligent-devs",
       "title": "Chatbot Intelligent pour Développeurs",
       "description": "Un assistant virtuel connecté à Jira, Outlook et Gitlab, conçu pour améliorer la productivité des développeurs.",
-      "imageUrl": "/images/projects/chatbot-dev.png",
+      "imageUrl": "/images/projects/chatbot-dev/chatbot-dev.png",
       "technologies": ["React", ".NET", "Semantic Kernel", "SCRUM"],
       "body": [
         {
@@ -58,17 +58,17 @@
           "type": "ThreeImagesBlade",
           "images": [
             {
-              "url": "/chatbot-jira.jpg",
+              "url": "/images/projects/chatbot-dev/chatbot-jira.png",
               "alt": "Intégration Jira",
               "description": "Exemple d'un ticket Jira créé automatiquement via le chatbot."
             },
             {
-              "url": "/chatbot-outlook.jpg",
+              "url": "/images/projects/chatbot-dev/chatbot-outlook.png",
               "alt": "Planification Outlook",
               "description": "Planification automatique de réunions depuis l'interface de messagerie."
             },
             {
-              "url": "/chatbot-gitlab.jpg",
+              "url": "/images/projects/chatbot-dev/chatbot-gitlab.png",
               "alt": "Interaction Gitlab",
               "description": "Rappel quotidien des MR en attente dans Gitlab envoyé par le bot."
             }
@@ -86,7 +86,7 @@
       "slug": "cms-localisation-bornes",
       "title": "Site de Localisation de Bornes de Recharge",
       "description": "Projet international pour permettre la localisation de bornes de recharge en Europe et à Singapour.",
-      "imageUrl": "/images/projects/total-ev.png",
+      "imageUrl": "/images/projects/total-ev/total-ev.png",
       "technologies": ["Angular", "Flutter", "CMS", "SCRUM"],
       "body": [
         {
@@ -99,7 +99,7 @@
           "type": "ThreeImagesBlade",
           "images": [
             {
-              "url": "/map-interface.jpg",
+              "url": "/images/projects/total-ev/map-interface.jpg",
               "alt": "Carte interactive",
               "description": "Interface cartographique permettant de localiser les stations en temps réel."
             },
@@ -127,7 +127,7 @@
       "slug": "onepoint-live-location-salles",
       "title": "Onepoint Live : Plateforme de Location de Salles",
       "description": "Un site Drupal permettant aux entreprises de réserver des espaces professionnels dans les locaux Onepoint à l'échelle nationale.",
-      "imageUrl": "/images/projects/onepoint-live.png",
+      "imageUrl": "/images/projects/onepoint-live/onepoint-live.png",
       "technologies": ["Drupal", "PHP", "SCRUM"],
       "body": [
         {
@@ -168,7 +168,7 @@
       "slug": "bonus-auto-symfony",
       "title": "Bonus-Auto : Aides à l'Achat de Véhicules Électriques",
       "description": "Une application Symfony pour accompagner les citoyens dans la demande de bonus écologique à l'achat d'un véhicule électrique.",
-      "imageUrl": "/images/projects/bonus-auto.png",
+      "imageUrl": "/images/projects/bonus-auto/bonus-auto.png",
       "technologies": ["Symfony", "PHP", "SCRUM"],
       "body": [
         {
@@ -209,7 +209,7 @@
       "slug": "analyse-comportementale-yolo",
       "title": "Analyse Comportementale en Vision par Ordinateur",
       "description": "Développement d'un algorithme d'analyse comportementale au Chili, combinant YOLO et Mediapipe.",
-      "imageUrl": "/images/projects/yolo-mediapipe.png",
+      "imageUrl": "/images/projects/yolo-mediapipe/yolo-mediapipe.png",
       "technologies": ["Python", "YOLO", "Mediapipe", "IA"],
       "body": [
         {
