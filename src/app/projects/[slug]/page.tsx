@@ -61,6 +61,7 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
           href="/#projects"
           className="inline-flex items-center px-4 py-2 mb-8 text-sm font-medium text-white bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors duration-200"
         >
+          {/* TODO: creer le fichier svg */}
           <svg
             className="w-4 h-4 mr-2"
             fill="none"
@@ -74,7 +75,7 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
               d="M10 19l-7-7m0 0l7-7m-7 7h18"
             />
           </svg>
-          Retour aux projets
+          <span>Retour aux projets</span>
         </Link>
 
         <div className="mb-8">
