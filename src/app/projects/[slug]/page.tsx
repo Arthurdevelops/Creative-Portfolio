@@ -47,7 +47,10 @@ const renderBlade = (blade: Blade) => {
   }
 };
 
-export default function ProjectPage({ params }: { params: { slug: string } }) {
+export default async function ProjectPage(props: {
+  params: Promise<{ slug: string }>;
+}) {
+  const params = await props.params;
   const project = getProject(params.slug);
 
   if (!project) {
@@ -59,7 +62,7 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
       <div className="max-w-4xl mx-auto">
         <Link
           href="/#projects"
-          className="inline-flex items-center px-4 py-2 mb-8 text-sm font-medium text-white bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors duration-200"
+          className="inline-flex items-center px-4 py-2 mb-8 text-sm font-medium text-white bg-gray-400 dark:bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors duration-200"
         >
           {/* TODO: creer le fichier svg */}
           <svg

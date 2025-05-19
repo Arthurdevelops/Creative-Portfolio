@@ -24,7 +24,7 @@ export default function TitleSubtitleDescriptionOnSideBlade({
             {subtitle}
           </Text>
         </div>
-        <div className="bg-gray-800 dark:bg-gray-800/50 p-6 rounded-lg">
+        <div className="bg-gray-400 dark:bg-gray-800/50 p-6 rounded-lg">
           <Text variant="body" className="text-white dark:text-gray-300">
             {description}
           </Text>

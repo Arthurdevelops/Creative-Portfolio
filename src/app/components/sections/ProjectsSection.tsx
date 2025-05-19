@@ -1,5 +1,3 @@
-"use client";
-
 import ProjectCard from "../organisms/ProjectCard";
 import projectsData from "@/app/data/projects.json";
 import { ProjectsData } from "@/app/types/blades";
