@@ -32,7 +32,7 @@ export default function HeroSection() {
           <ScrollArrow
             className="mt-8"
             onClick={scrollToProjects}
-            iconClassName="w-20 h-20"
+            iconClassName="size-10 lg:size-20"
           />
         </motion.div>
       </div>

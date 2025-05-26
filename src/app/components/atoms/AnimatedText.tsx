@@ -23,13 +23,13 @@ export default function AnimatedText({
   const getVariantClasses = () => {
     switch (variant) {
       case "h1":
-        return "text-12xl font-bold";
+        return "text-5xl sm:text-6xl lg:text-9xl text-center sm:text-left font-bold";
       case "h2":
-        return "text-9xl font-bold";
+        return "text-5xl lg:text-9xl font-bold";
       case "h3":
-        return "text-6xl font-semibold";
+        return "text-3xl lg:text-6xl font-semibold";
       case "body":
-        return "text-2xl font-normal";
+        return "text-xl lg:text-2xl font-normal";
       case "small":
         return "sm";
       default:

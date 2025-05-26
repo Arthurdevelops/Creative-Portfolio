@@ -14,7 +14,7 @@ export default function Text({
   const getVariantClasses = () => {
     switch (variant) {
       case "h1":
-        return "text-6xl font-bold";
+        return "text-4xl lg:text-6xl font-bold";
       case "h2":
         return "text-3xl font-bold";
       case "h3":
